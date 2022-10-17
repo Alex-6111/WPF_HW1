@@ -1,0 +1,52 @@
+﻿<Window x:Class="WPF_HW1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_HW1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <WrapPanel Margin="20">
+            <Button Foreground="Navy" Content="Navy" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Aqua" Content="Aqua" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Teal" Content="Teal" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Olive" Content="Olive" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Green" Content="Green" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Lime" Content="Lime" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Yellow" Content="Yellow" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Orange" Content="Orange" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Red" Content="Red" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Maroon" Content="Maroon" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Fuchsia" Content="Fuchsia" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Purple" Content="Purple" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Black" Content="Black" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Silver" Content="Silver" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Gray" Content="Gray" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="White" Content="White" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Navy" Content="Navy" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Aqua" Content="Aqua" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Teal" Content="Teal" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Olive" Content="Olive" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Green" Content="Green" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Lime" Content="Lime" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Yellow" Content="Yellow" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Orange" Content="Orange" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Red" Content="Red" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Maroon" Content="Maroon" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Fuchsia" Content="Fuchsia" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Purple" Content="Purple" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Black" Content="Black" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Silver" Content="Silver" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="Gray" Content="Gray" Margin="5.0" Width="100" Height="25" />
+            <Button Foreground="White" Content="White" Margin="5.0" Width="100" Height="25" />
+        </WrapPanel>
+    </Grid>
+
+</Window>
